@@ -4,10 +4,9 @@
 	<title> Olive Garden Recipe Tips </title>
 </head>
 <body>
-	<img src="https://media.olivegarden.com/en_us/images/product/d-alfredo-sauce-recipe-olive-garden-dpv.jpg" name="alfredo">
-	<img src="https://thumbs.gfycat.com/WearyThinCaudata-max-1mb.gif" name="gif" >
-
-	<h1> Olive Garden </h1>
+	<div class="bg-image"> </div>
+	<div class="bg-text">
+		<h1> Olive Garden </h1>
 	<p> This is not actually Olive Garden's Website, but we're going to believe it is for today. Hi! I'm Oliver and This is actually my site. Everything here is supposed to be a work in progress, since it kind of is for my class. </p>
 
 	<a href="/Biography/"> Biography.</a>
@@ -18,8 +17,56 @@
 
 	<a href="./posters.html"> Here is my poster assignment. </a>
 <br>
-
 	<a href="https://www.are.na/share/mOZzYEm"> Here is my Are.na. </a>
 
+<br>
+<img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/21768428_2016552015247535_4429117558080295429_n.jpg?_nc_cat=103&oh=ad997991bb7d458aaab8c371069b2e63&oe=5C1591E3">
+
+
+</div>
+
+<style type="text/css">
+	body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://media.giphy.com/media/uXR9GpSKyj60w/giphy.gif");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
 </body>
 </html>

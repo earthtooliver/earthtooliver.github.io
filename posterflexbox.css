@@ -1,3 +1,38 @@
 <style>
 {background-color: slategray}
+.lead {
+	display: flex;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+.title {
+	font-size: large;
+	font-family: chantal, sans-serif;
+	font-size: 100px;
+	text-align: center;
+	position: center;
+	border-color: #76C7CD;
+	border-style: dashed;
+
+
+}
+.container1 {
+  display: flex;
+  border: dotted;
+  border-color: blue;
+  border-width: 5px;
+  border-width: auto;
+  background-color: pink;
+}
+
+.subtext {
+	display: flex;
+	border: double;
+	border-color: red;
+	border-width: 2px;
+}
+
+
+}
 </style>

@@ -17,12 +17,12 @@
          font-family: chantal, sans-serif;
             font-weight: 300;
             font-size: 250px;
-            color: red;
-            text-shadow: red;
+            color: black;
+            text-shadow: black;
             text-align: center;
             text-decoration: none;
         }
-
+a.page1hl:hover, a.page1hl:active {color: red;}
     }
     .textpg1 {
     position: center;
@@ -42,12 +42,11 @@
     }
     .page3hl {
         text-decoration: none;
-        text-decoration-color: red;
-        text-decoration-line: red;
-        text-transform: red;
-        text-shadow: none;
-
+        text-shadow: red;
     }
+    
+    a.page3hl:hover, a.page3hl:active {color: red;}
+
     .page2body {
         background-color: black;
     }

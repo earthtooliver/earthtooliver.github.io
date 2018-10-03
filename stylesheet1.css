@@ -1,36 +1,64 @@
 
 <style>
-    body { background-color:  #444444;
+    .pg1 { background-color: white;
             color: black;
-            background-image: url(https://i0.wp.com/hybridpedagogy.org/wp-content/uploads/2016/09/8660104345_f2cf4a9d8d_k.jpg); 
-            background-repeat: no-repeat;
         }
-    h1 {
-        font-family: chantal, monospace, sans-serif;
+
+    .textpg1 {
+        font-family: chantal, sans-serif;
             font-style: italic;
             font-weight: 300;
-            font-size: 250px;
+            font-size: 225px;
             text-align: center;
+
         }   
-    a   {
-         font-family: chantal, monospace, sans-serif;
+
+    .page1hl {
+         font-family: chantal, sans-serif;
             font-weight: 300;
             font-size: 250px;
             color: red;
             text-shadow: red;
             text-align: center;
             text-decoration: none;
-
         }
 
     }
-    .text {
+    .textpg1 {
     position: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    }
 
+    .textpg2 {
+        font-family: chantal, sans-serif;
+            font-style: thin;
+            font-weight: 300;
+            font-size: 225px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+    }
+    .page3hl {
+        text-decoration: none;
+        text-decoration-color: red;
+        text-decoration-line: red;
+        text-transform: red;
+        text-shadow: none;
+
+    }
+    .page2body {
+        background-color: black;
+    }
+    
+    .imagepg2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
 
     }
 
+    }
 </style>

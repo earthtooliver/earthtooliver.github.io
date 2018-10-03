@@ -49,6 +49,7 @@
         .page2hl {
             text-decoration: none;
             text-shadow: red;
+            color: black;
         }
     
     a.page2hl:hover, 

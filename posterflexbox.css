@@ -1,15 +1,20 @@
 <style>
 {background-color: slategray}
+;
 .lead {
 	display: flex;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
+}
+.dates {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 }
 
 .title {
 	font-size: large;
 	font-family: chantal, sans-serif;
-	font-size: 100px;
+	font-size: 50px;
 	text-align: center;
 	position: center;
 	border-color: #76C7CD;
@@ -24,6 +29,7 @@
   border-width: 5px;
   border-width: auto;
   background-color: pink;
+  font-size: 20px;
 }
 
 .subtext {
@@ -31,16 +37,52 @@
 	border: double;
 	border-color: red;
 	border-width: 2px;
+	font-size: 20px;
 }
-.footsteps {
-    width:10px;
-    height: auto;
+
 }
 
 img.francis {
-	resize {
-    width:10%;
-    height: auto;
+	display: inline-block;
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            transition-duration: 0.2s;
+            transition-property: transform;
+        }
+
+    .francis:hover,
+    .francis:focus,
+    .francis:active {
+            transform: scale(1.1);
+	resize
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+
 }
+.titleimg {
+	display: inline-block;
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            transition-duration: 0.2s;
+            transition-property: transform;
+        }
+
+   .titleimg:hover,
+   .titleimg:focus,
+   .titleimg:active {
+            transform: scale(1.1);
+}
+
+.syn {
+	font-family: arial;
+	font-size: 18px;
+	border:6px solid yellow;
+
 }
 </style>

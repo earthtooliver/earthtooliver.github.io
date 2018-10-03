@@ -22,7 +22,8 @@
             text-align: center;
             text-decoration: none;
         }
-a.page1hl:hover, a.page1hl:active {color: red;}
+    a.page1hl:hover, 
+    a.page1hl:active {color: red;}
     }
     .textpg1 {
     position: center;
@@ -45,7 +46,8 @@ a.page1hl:hover, a.page1hl:active {color: red;}
         text-shadow: red;
     }
     
-    a.page3hl:hover, a.page3hl:active {color: red;}
+    a.page3hl:hover, 
+    a.page3hl:active {color: red;}
 
     .page2body {
         background-color: black;

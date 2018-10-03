@@ -1,66 +1,138 @@
-
 <style>
+
+/* Page 1 */
+
     .pg1 { background-color: white;
             color: black;
         }
 
-    .textpg1 {
-        font-family: chantal, sans-serif;
-            font-style: italic;
-            font-weight: 300;
-            font-size: 225px;
-            text-align: center;
+        .textpg1 {
+            font-family: chantal, sans-serif;
+                font-style: italic;
+                font-weight: 300;
+                font-size: 225px;
+                text-align: center;
+                }   
 
-        }   
-
-    .page1hl {
-         font-family: chantal, sans-serif;
-            font-weight: 300;
-            font-size: 250px;
-            color: black;
-            text-shadow: black;
-            text-align: center;
-            text-decoration: none;
-        }
+        .page1hl {
+            font-family: chantal, sans-serif;
+                font-weight: 300;
+                font-size: 250px;
+                color: black;
+                text-shadow: black;
+                text-align: center;
+                text-decoration: none;
+            }
+    
     a.page1hl:hover, 
     a.page1hl:active {color: red;}
+    
     }
-    .textpg1 {
-    position: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
+        .textpg1 {
+            position: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
-    .textpg2 {
-        font-family: chantal, sans-serif;
-            font-style: thin;
-            font-weight: 300;
-            font-size: 225px;
-            text-align: center;
+/* Page 2 */
+
+        .textpg2 {
+            font-family: chantal, sans-serif;
+                font-style: thin;
+                font-weight: 300;
+                font-size: 225px;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+        }
+        .page2hl {
             text-decoration: none;
-            color: white;
-    }
-    .page3hl {
-        text-decoration: none;
-        text-shadow: red;
-    }
+            text-shadow: red;
+        }
     
-    a.page3hl:hover, 
-    a.page3hl:active {color: red;}
+    a.page2hl:hover, 
+    a.page2hl:active {color: red;}
 
-    .page2body {
-        background-color: black;
-    }
+        .page2body {
+            background-color: black;
+        }
     
-    .imagepg2 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 30%;
-        background-image: black;
+        .imagepg2 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            background-image: black;
+        }
 
-    }
+/* Page 3 */
 
-    }
+        .pg3body {
+            background-color: dimgray;
+        }
+
+        .textpg3 {
+            font-family: chantal, sans-serif;
+                font-style: italic;
+                font-weight: 300;
+                font-size: 100px;
+                text-align: center;
+        }
+
+
+        .page3hl {
+            text-decoration: none;
+            font-family: chantal, sans-serif;
+                font-style: italic;
+                font-weight: 300;
+                font-size: 120px;
+                text-align: center;
+                 color: white;
+                  -webkit-transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+                  text-align: bottom
+                  ;
+        }
+
+        .page3hl {
+            display: inline-block;
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            transition-duration: 0.2s;
+            transition-property: transform;
+        }
+
+        .page3hl:hover,
+        .page3hl:focus,
+        .page3hl:active {
+            transform: scale(1.1);
+            color: red;
+        }
+        
+        }
+
+        .imagepg3 {
+            position: right;
+            float: right;
+            width: auto;
+            float: right;
+            background-color: cover;
+            
+        }
+        .rectanglepg3 {
+            display: block;
+            background-color: white;
+                width: auto;
+                height: auto;
+                opacity: 0.6;
+                border-right: 5px white dotted;
+                border-left: 5px white dotted;
+                border-top: 5px  white dotted;
+                border-bottom: 5px white dotted;
+        }
+
 </style>

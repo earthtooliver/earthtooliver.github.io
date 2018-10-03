@@ -32,7 +32,15 @@
 	border-color: red;
 	border-width: 2px;
 }
+.footsteps {
+    width:10px;
+    height: auto;
+}
 
-
+img.francis {
+	resize {
+    width:10%;
+    height: auto;
+}
 }
 </style>

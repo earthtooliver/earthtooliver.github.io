@@ -5,10 +5,12 @@
 	display: flex;
 	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
+	align-self: auto;
 }
 .dates {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
+	align-self: auto;
 }
 
 .title {
@@ -19,6 +21,7 @@
 	position: center;
 	border-color: #76C7CD;
 	border-style: dashed;
+	align-self: auto; 
 
 
 }
@@ -30,6 +33,7 @@
   border-width: auto;
   background-color: pink;
   font-size: 20px;
+  align-self: auto;
 }
 
 .subtext {
@@ -38,12 +42,13 @@
 	border-color: red;
 	border-width: 2px;
 	font-size: 20px;
+	align-self: auto;
 }
 
 }
 
 img.francis {
-	display: inline-block;
+	display: flex;
             transform: translateZ(0);
             box-shadow: 0 0 1px rgba(0, 0, 0, 0);
             backface-visibility: hidden;
@@ -83,6 +88,7 @@ img.francis {
 	font-family: arial;
 	font-size: 18px;
 	border:6px solid yellow;
+	align-self: auto;
 
 }
 </style>

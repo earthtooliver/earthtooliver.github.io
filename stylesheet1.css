@@ -86,7 +86,7 @@
         .page3hl {
             text-decoration: none;
             font-family: chantal, sans-serif;
-                font-style: italic;
+                font-style: italic,bold;
                 font-weight: 300;
                 font-size: 120px;
                 text-align: center;
@@ -96,11 +96,12 @@
                   transform: translate(-50%, -50%);
                   position:center;
             text-align: center;
+            
                     
         }
 
         .page3hl {
-            display: block;
+       
             transform: translateZ(0);
             box-shadow: 0 0 1px rgba(0, 0, 0, 0);
             backface-visibility: hidden;
@@ -114,12 +115,13 @@
 
         .page3hl:hover,
         .page3hl:focus,
-        .page3hl:active {
+        .page3hl:active  + .ps {
             transform: scale(1.1);
             color: red;
+
         }
         
-        }
+
 
         .imagepg3 {
             background-color: cover;
@@ -127,8 +129,7 @@
             width: auto;
             display: flex;
             width: stretch;
-            
-            
+             
         }
         .rectanglepg3 {
             display: inline-block;
@@ -142,7 +143,9 @@
                 border-top: 5px  white solid;
                 border-bottom: 5px white solid;
 
-
         }
+    
+/* Page 4 */
+
 
 </style>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lobster+Two');
 
 	.page1mono {
-		font-family: 'Crimson Text', serif;
+		font-family: 'Crimson Text', sans-serif;
 		font-family: 'Lobster Two', cursive;
 		font-size: 50px;
 	}

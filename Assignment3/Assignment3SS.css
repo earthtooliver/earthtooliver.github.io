@@ -1,16 +1,36 @@
 <style>
 	
+    @font-face {
+    font-family:'terminal_grotesque';
+    src: url('Web Fonts/Fonts/terminal_grotesque/terminal-grotesque-webfont.eot');
+    src: url('Web Fonts/Fonts/terminal_grotesque/terminal-grotesque-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Web Fonts/Fonts/terminal_grotesque/terminal-grotesque-webfont.woff2') format('woff2'),
+         url('Web Fonts/Fonts/terminal_grotesque/terminal-grotesque-webfont.woff') format('woff'),
+         url('Web Fonts/Fonts/terminal_grotesque/terminal-grotesque-webfont.ttf') format('truetype'),
+         url('Web Fonts/Fonts/terminal_grotesque/terminal-grotesque-webfont.svg#terminal_grotesqueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page1 {
+    font-family: 'terminal_grotesque'
+}
+
+
+
 	@import url('//fonts.googleapis.com/css?family=Crimson+Text|Lobster+Two');
 		
 		.page1 {
 
             font-family: chantal, sans-serif;
                 font-weight: 300;
-                font-size: 250px;
+                font-size: 130px;
                 color: black;
                 text-shadow: black;
+                opacity: 0.5;
                 text-align: center;
                 text-decoration: none;
             }
 		}
+        
 </style>

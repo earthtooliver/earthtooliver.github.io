@@ -35,4 +35,9 @@ body {
 		height: 300px;
 		background-color: yellow;
 		margin: 20px auto;
+		font-size: 40PX;
+		text-align: center;
+		font-family: 'Impact';
+		text-decoration-color: white;
+		color:gray;
 }

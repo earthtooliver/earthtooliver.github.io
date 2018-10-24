@@ -21,12 +21,15 @@
     width: 100%;
     height: 30px;
     top:20%;
-    bottom: 00%;
+    bottom: 60%;
     position: absolute;
-    transform: skewY(180deg);
+    transform: rotate(180deg);
     padding-left: 70%;
     opacity: .7;
+    padding-top: 70%;
     display: flex;
+    font-size: 50px;
+    font-weight: bold;
         }
 .page2 {
     font-family: chantal, sans-serif;
@@ -35,7 +38,7 @@
             color: #104571;
              text-shadow: black;
              text-align: center;
-             position: relative;
+             
          }
     .page2triangle {
     width: 50px;

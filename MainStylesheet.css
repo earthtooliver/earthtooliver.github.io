@@ -21,7 +21,7 @@
   font-family: 'Poppins','Futura', sans-serif;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 50%;
+  top: 60% ;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -30,6 +30,8 @@
   text-align: center;
 
   }
+
+
 
 .title {
   background-color: rgb(0,0,0); 
@@ -107,8 +109,8 @@
   border: 3px solid #f1f1f1;
   font-family: 'Poppins','Futura', sans-serif;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50% auto;
+  left: 50% auto;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 80% auto;
@@ -116,4 +118,9 @@
   text-align: center;
 }
 
+.totoro {
+  width: 10px auto;
+  size: 10px auto;
+
+}
 </style>

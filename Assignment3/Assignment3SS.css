@@ -16,24 +16,63 @@
     font-family: 'terminal_grotesque'
 }
 
+.bluediag {
+    background-color: #104571;
+    width: 100%;
+    height: 30px;
+    top:20%;
+    bottom: 00%;
+    position: absolute;
+    transform: skewY(180deg);
+    padding-left: 70%;
+    opacity: .7;
+    display: flex;
+        }
+.page2 {
+    font-family: chantal, sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: #104571;
+             text-shadow: black;
+             text-align: center;
+             position: relative;
+         }
+    .page2triangle {
+    width: 50px;
+    height: 20px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #555;
+     font-family: chantal, sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: black;
+             text-shadow: black;
+             padding-left: 90%;
+             position: absolute;
 
-
+    }
+    
 	@import url('//fonts.googleapis.com/css?family=Crimson+Text|Lobster+Two');
 		
 		.page1 {
 
             font-family: chantal, sans-serif;
                 font-weight: 300;
-                font-size: 50px;
+                font-size: 24px;
                 color: black;
                 text-shadow: black;
-                opacity: 0.5;
-                text-align: center;
+                text-align: left;
                 text-decoration: none;
-            }
-		}
-        
+                display: inline-flex;
+                width: 50%;
+                padding-right: 50%;
 
+            }
+
+        }
+        
+}
         body {
     background-color: lightblue;
     margin: 0;

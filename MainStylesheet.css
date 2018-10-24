@@ -7,8 +7,7 @@
   box-sizing: border-box;
 
   height:auto; 
-
-
+  background-color: pink;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
@@ -28,6 +27,7 @@
   width: 70% auto;
   padding: 10px auto;
   text-align: center;
+
 
   }
 

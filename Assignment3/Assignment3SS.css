@@ -261,6 +261,27 @@
     background-color: lightblue;
 }
 
+.page9 {
+    font-family: Impact;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.bigboy9 {
+    text-align: center;
+    font-size: 80px;
+    text-decoration: line-through;
+    transform: rotate(180deg);
+}
+
+.yellow9 {
+  
+    background-color: yellow;
+    font-color: black;
+    text-transform: uppercase;
+
+
+}
 h2 {
     font-family: chantal, sans-serif;
 

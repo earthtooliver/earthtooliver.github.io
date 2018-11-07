@@ -279,14 +279,126 @@
     background-color: yellow;
     font-color: black;
     text-transform: uppercase;
+}
 
+.page10 {
+    font-family: cursive;
 
+    text-align: center;
+
+}
+.page10dot1 {
+      height: 50px;
+  width: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 49%;  
+}.page10dot2 {
+height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 49%;  
+}
+ .page10dot3 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 49%;  
+}
+
+.page11triangleup {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px yellow;
+    font-family:cursive;
+     position: absolute;
+    margin-left:50%;
+    padding-top:20%;
+}
+.page11triangledown {
+    width: 0;
+    height: 0;
+    border-left: 205px solid transparent;
+    border-right: 205px solid transparent;
+    border-top: 500px solid green;
+    font-family:cursive;
+}
+
+.page12 {
+    font-family: monospace;
+    color: white;
+    color: #FFFFFF;
+text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+    font-size: 80px;
+    opacity: 1;
+    text-align: center;
+}
+.background12 {
+    background-image: url(https://i.gifer.com/ZA0E.gif);
+    background-color:cover solid black;
+ }
+
+.page13 {
+    color: #bc2e1e;
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+text-align: right;
+font-size: 400px;
+
+}
+.page13triangle {
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-right: 250px solid red;
+    border-bottom: 250px solid transparent;    
+}
+.page14 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://pmcvariety.files.wordpress.com/2014/09/this-is-our-youth-2.jpg?w=1000&h=563&crop=1);
+  background-size: cover;
+}
+
+.page15 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    color: blue;
+    text-decoration: line-through;
+    font-size: 300px;
+}
+.page15circle {
+    border-radius: 50%;
+    color: lightblue;
+    width: 30px;
+    height: 30px;
+    margin-left: 80%;
+}
 }
 h2 {
     font-family: chantal, sans-serif;
 
 }
-        
-}
+
 
 </style>

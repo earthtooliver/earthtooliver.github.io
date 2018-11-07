@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		#adj1 {
+			color: blue;
+		}
+		#noun1 {
+			color: red;
+		}
+		#noun2 {
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+	 <h2>JavaScript Inner HTML Exercise</h2>
+	 	<p> Based on "The X Y will go to the Z."</p>
+
+For the other versions, <a href="js_exercise.html">
+ click here. </a>
+
+ <br>
+
+The <span id="adj1"></span> <span id="noun1"></span> will go to the <span id="noun2"></span>.
+
+	<script type="text/javascript">
+		var x = "scary";
+		var y = "monster";
+		var z =	"store";
+		document.getElementById('adj1').innerHTML = x;
+		document.getElementById('noun1').innerHTML = y;
+		document.getElementById('noun2').innerHTML = z;
+	</script>
+
+</body>
+</html>

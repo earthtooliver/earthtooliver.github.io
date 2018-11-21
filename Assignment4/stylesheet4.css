@@ -1,0 +1,93 @@
+<style>
+
+/* All Pages 
+Not even sure if this code is valid, but sure
+*/
+
+.forwardarrow {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+
+						/* Index Page */
+
+
+	.hoverstates {
+		width: relative;
+		height: relative;
+		background-color: lightgreen;
+		font-size: 40PX;
+		font-family: 'Helvetica';
+		text-decoration-line: none;
+		color:black;
+		margin: 38%;
+}
+
+	.flex {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.cube {
+		width: relative;
+		height: relative;
+		background-color: yellow;
+		margin: 20px auto;
+		padding: 20px auto;		
+}
+
+	.indexbody {
+		background-color: lightblue;
+		margin: 0;
+}
+
+
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	
+}
+
+	.cube {
+		width: relative;
+		height: relative;
+		background-color: yellow;
+		margin: 40px auto;
+		font-size: 35PX;
+		text-align: center;
+		font-family: 'Helvetica';
+		text-decoration-line: none;
+		color:purple;
+	    text-align: center;
+	    border-radius: 50%;
+}
+
+	.dog {
+		margin-left: 48%;
+		margin-right: 48%;
+		align-items: center;
+}
+
+
+			/* Background Color: A41, Page 1 */
+
+
+			/* Scale: A42, Page 2 */	
+
+
+			/* Shape: A43, Page 3 */
+
+
+			/* Rotation: A44, Page 4 */
+
+
+			/* Variation: A45, Page 5 */	
+
+					
+</style>

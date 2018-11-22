@@ -77,36 +77,277 @@ Not even sure if this code is valid, but sure
 
 			/* Background Color: A41, Page 1 */
 
-body {
-	background-color: black;
+.abraA1 {
+	background-image: url(https://orig00.deviantart.net/84f1/f/2014/319/5/0/pokemon_x_and_y_battle_background_18_by_phoenixoflight92-d86i02s.png);
+	background-size: cover;
 }
 
 	}
-	.abra-wrapper {
+	.abragrass {
 		height: 800px;
 		width: 200px;
 		overflow:hidden;
 		background-color: black;
-		transition-property: background-color, transform;
-		transition-duration: 2s, 2s;
+		transition-property: background-color,;
+		margin-left: 50%;
+	margin-top: 30%;
 
 	}
 
-	.abra-wrapper:hover .abra {
-		transform: translateX(900px);
+	.abragrass:hover .abra {
+		transform: translateX(100px);
 		display: block;
 		animation-iteration-count: infinite;
-		transition-duration: 2s;
+		transition-duration: .3s; 
+		margin-left: 50%;
+	margin-top: 30%;
 	}
 
+
+.abragrass	{
+	z-index: 10;
+
+}
+
 .abra {
-  margin-left: 50%;
-  
+	z-index: 10;
+	position: center;
+	margin-left: 50%;
+	margin-top: 30%;
+  	-webkit-animation: flicker-out-1 3s linear both;
+	        animation: flicker-out-1 3s linear both;
+	        animation-delay: .3s;
+
+}
+
+@-webkit-keyframes flicker-out-1 {
+  0% {
+    opacity: 1;
+  }
+  13.9% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  14.9% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  15% {
+    opacity: 1;
+  }
+  22.9% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  24.9% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  25% {
+    opacity: 1;
+  }
+  34.9% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  39.9% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  40% {
+    opacity: 1;
+  }
+  42.9% {
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  44.9% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  54.9% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  69.4% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  69.5% {
+    opacity: 1;
+  }
+  69.9% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  79.4% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  79.9% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  89.8% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  89.9% {
+    opacity: 1;
+    box-shadow: none;
+  }
+  90% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes flicker-out-1 {
+  0% {
+    opacity: 1;
+  }
+  13.9% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  14.9% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  15% {
+    opacity: 1;
+  }
+  22.9% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  24.9% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  25% {
+    opacity: 1;
+  }
+  34.9% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  39.9% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  40% {
+    opacity: 1;
+  }
+  42.9% {
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  44.9% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  54.9% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  69.4% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  69.5% {
+    opacity: 1;
+  }
+  69.9% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  79.4% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  79.9% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  89.8% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  89.9% {
+    opacity: 1;
+    box-shadow: none;
+  }
+  90% {
+    opacity: 0;
+    box-shadow: none;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .grass {
-	margin-left: 50%;
+	z-index: 3;
+	position: absolute;
 	width: 100%;
+
 }
 
 

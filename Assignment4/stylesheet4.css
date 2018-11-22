@@ -24,7 +24,7 @@ Not even sure if this code is valid, but sure
 		font-family: 'Helvetica';
 		text-decoration-line: none;
 		color:black;
-		margin: 38%;
+
 }
 
 	.flex {
@@ -359,6 +359,18 @@ Not even sure if this code is valid, but sure
 
 
 			/* Scale: A42, Page 2 */	
+
+.cat {
+        width: 130px;
+        height: 195px;
+        background: url("/grumpy_cat.jpg") no-repeat;
+        margin: 50px;
+    }
+    .cat:hover {
+        background: url("/happy_grumpy_cat.jpg") no-repeat;
+    }
+
+
 
 
 			/* Shape: A43, Page 3 */

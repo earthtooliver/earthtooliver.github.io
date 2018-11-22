@@ -103,10 +103,16 @@ Not even sure if this code is valid, but sure
 	margin-top: 30%;
 	}
 
+.titleA1 {
+	color: white;
+	font-size: 20px;
+	z-index: 10;
+	font-style: 'Helvetica';
+	margin-left: 20%;
+}
 
 .abragrass	{
 	z-index: 10;
-
 }
 
 .abra {

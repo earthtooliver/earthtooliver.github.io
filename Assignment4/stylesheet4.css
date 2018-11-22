@@ -77,6 +77,39 @@ Not even sure if this code is valid, but sure
 
 			/* Background Color: A41, Page 1 */
 
+body {
+	background-color: black;
+}
+
+	}
+	.abra-wrapper {
+		height: 800px;
+		width: 200px;
+		overflow:hidden;
+		background-color: black;
+		transition-property: background-color, transform;
+		transition-duration: 2s, 2s;
+
+	}
+
+	.abra-wrapper:hover .abra {
+		transform: translateX(900px);
+		display: block;
+		animation-iteration-count: infinite;
+		transition-duration: 2s;
+	}
+
+.abra {
+  margin-left: 50%;
+  
+}
+
+.grass {
+	margin-left: 50%;
+	width: 100%;
+}
+
+
 
 			/* Scale: A42, Page 2 */	
 

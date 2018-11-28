@@ -2,14 +2,15 @@
 <!--
 body {
 	background-image: url(Images/backbody.jpg);
+
 	background-attachment:fixed;
 	background-position:center center;
-	background-repeat:no-repeat;
+	background-repeat:repeat;
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	background-color: #000000;
+
 }
 .style16 {
 	font-size: 14px;

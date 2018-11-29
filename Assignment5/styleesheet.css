@@ -20,9 +20,11 @@ body {
 	color: #FFFFFF;
 	font-size: 12px;
 }
+
+
 body,td,th {
 	color: #FFFFFF;
-	font-family: Impact, Times New Roman, Times, serif;
+	font-family: 'Impact', Times New Roman, Times, serif;
 }
 a:link {
 	color: #FF3300;
@@ -37,7 +39,7 @@ a:active {
 	color: #FF3300;
 }
 a {
-	font-family: Georgia, Times New Roman, Times, serif;
+	font-family: 'Impact', Times New Roman, Times, serif;
 }
 .style3 {
 	font-size: 12px
@@ -45,4 +47,11 @@ a {
 .foot {	font-size: 12px;
 }
 -->
+
+.textdes {
+	font-family: 'Impact';
+	font-size: 25px;
+	color: yellow;
+	text-align: right;
+}
 </style>

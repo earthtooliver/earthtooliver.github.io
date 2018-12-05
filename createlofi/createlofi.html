@@ -3,9 +3,27 @@
 <head>
 	<title> Cre8 Lo-Fi</title>
 	<link rel="stylesheet" type="text/css" href="createlofiss.css">
+	<link rel="icon" href="https://store-images.s-microsoft.com/image/apps.41557.14248358130657533.321d7527-3d22-4946-800a-e6fae4b4c36b.7417b3fe-dae7-4caa-9ae1-446d0e9fce81">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script><html> 
 <body>
-<script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"></script>
+	<button id="pButton" class="play" onclick="playAudio()"></button>
+	<audio id="rainaudio" loop="loop">
+		<source src="https://rainymood.com/audio1110/0.m4a" type="audio/m4a"> 
+	</audio>
+<script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"> 
+var music = document.getElementById('audioplayer');
+function playAudio() {
+if (music.paused) {
+music.play();
+pButton.className = "";
+pButton.className = "pause";
+} else {
+music.pause();
+pButton.className = "";
+pButton.className = "play";
+}}
+function setVolume(volume){music.volume = volume;}
+</script>
 </html>

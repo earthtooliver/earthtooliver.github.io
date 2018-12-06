@@ -29,8 +29,8 @@ body {
   outline:none;
 }
 
-.play{background: url('icons/raindrops.png') ;}
-.pause{background: url('icons/pause_button.png') ;}
+.play{background: url('icons/raindrops.png') ;filter:grayscale(100%)}
+.pause{background: url('icons/raindrops.png');}
 
 #volume_control{
   margin:auto;

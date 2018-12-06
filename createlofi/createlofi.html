@@ -10,12 +10,13 @@
 
 <body>
 	<div id="audioplayerskin">
-                    <button id="pButton" class="play" onclick="playAudio()"></button>
+          <button id="pButton" class="play" onclick="playAudio()">
+          </button>
                     <div id="volume_control">
-                        <input type="range" oninput="setVolume(this.value)" onchange="setVolume(this.value)" id="rngVolume" min="0" max="100" step="0.01" value="50">
+                      	 <input type="range" oninput="setVolume(this.value)" onchange="setVolume(this.value)" id="rngVolume" min="0" max="1" step="0.01" value="0">
                     </div>
                 </div>
-	<audio id="rainaudio" loop="loop">
+	<audio id="audioplayer" loop="loop">
 		<source src="audio/rain.m4a" type="audio/m4a"/> 
 		<source src="audio/rain.m4a" type="audio/ogg"/>
 		<source src="audio/rain.m4a" type="audio/mpeg"/>

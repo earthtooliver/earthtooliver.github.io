@@ -29,7 +29,7 @@ body {
   outline:none;
 }
 
-.play{background: url('icons/play_button.png') ;}
+.play{background: url('icons/raindrops.png') ;}
 .pause{background: url('icons/pause_button.png') ;}
 
 #volume_control{

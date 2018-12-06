@@ -6,24 +6,26 @@
 	<link rel="icon" href="https://store-images.s-microsoft.com/image/apps.41557.14248358130657533.321d7527-3d22-4946-800a-e6fae4b4c36b.7417b3fe-dae7-4caa-9ae1-446d0e9fce81">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<script type='text/javascript' src='http://m.free-codes.org/gh.php?id=2001'></script><html> 
+<html> 
+
 <body>
-	<button id="pButton" class="play" onclick="playAudio()"></button>
+	<div id="audioplayerskin">
+                    <button id="pButton" class="play" onclick="playAudio()"></button>
+                    <div id="volume_control">
+                        <input type="range" oninput="setVolume(this.value)" onchange="setVolume(this.value)" id="rngVolume" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
 	<audio id="rainaudio" loop="loop">
-		<source src="https://rainymood.com/audio1110/0.m4a" type="audio/m4a"> 
+		<source src="https://rainymood.com/audio1110/0.m4a" type="audio/mp4"> 
 	</audio>
-<script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"> 
-var music = document.getElementById('audioplayer');
-function playAudio() {
-if (music.paused) {
-music.play();
-pButton.className = "";
-pButton.className = "pause";
-} else {
-music.pause();
-pButton.className = "";
-pButton.className = "play";
-}}
-function setVolume(volume){music.volume = volume;}
-</script>
+	<div class="fullscreen-bg">
+    <video loop muted autoplay poster="" class="fullscreen-bg__video">
+        <source src="backgrounds/BlushingSecretIndianpalmsquirrel.webm" type="video/webm">
+        <source src="backgrounds/BlushingSecretIndianpalmsquirrel.mp4" type="video/mp4">
+        <source src="backgrounds/BlushingSecretIndianpalmsquirrel.ogv" type="video/ogg">
+    </video>
+</div>
+</body>
+<script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"></script>
+<script type="text/javascript" src="javalofi.js"></script>
 </html>

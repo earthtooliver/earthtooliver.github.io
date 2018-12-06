@@ -30,8 +30,8 @@ body {
   outline:none;
 }
 
-.play{background: url('https://stratuslive.com/wp-content/uploads/2016/05/btn-play_video.png') ;}
-.pause{background: url('https://www.raincitycapital.com/wp-content/uploads/2017/04/mainpromo_pause_button.png') ;}
+.play{background: url('icons/play_button.png') ;}
+.pause{background: url('icons/pause_button.png') ;}
 
 #volume_control{
   margin:auto;
@@ -39,6 +39,7 @@ body {
   padding-top:0px;padding-bottom:0px;
   width:50%;
 }
+
 
 .fullscreen-bg {
     position: fixed;

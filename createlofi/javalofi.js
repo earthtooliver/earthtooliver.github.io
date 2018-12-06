@@ -14,3 +14,4 @@ function playAudio() {
 function setVolume(volume) {
     music.volume = volume;
 }
+

@@ -12,11 +12,13 @@
 	<div id="audioplayerskin">
                     <button id="pButton" class="play" onclick="playAudio()"></button>
                     <div id="volume_control">
-                        <input type="range" oninput="setVolume(this.value)" onchange="setVolume(this.value)" id="rngVolume" min="0" max="1" step="0.01" value="1">
+                        <input type="range" oninput="setVolume(this.value)" onchange="setVolume(this.value)" id="rngVolume" min="0" max="100" step="0.01" value="50">
                     </div>
                 </div>
 	<audio id="rainaudio" loop="loop">
-		<source src="https://rainymood.com/audio1110/0.m4a" type="audio/mp4"> 
+		<source src="audio/rain.m4a" type="audio/m4a"/> 
+		<source src="audio/rain.m4a" type="audio/ogg"/>
+		<source src="audio/rain.m4a" type="audio/mpeg"/>
 	</audio>
 	<div class="fullscreen-bg">
     <video loop muted autoplay poster="" class="fullscreen-bg__video">
@@ -26,6 +28,6 @@
     </video>
 </div>
 </body>
-<script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"></script>
+<script type="text/javascript" src="rainjs.js"></script>
 <script type="text/javascript" src="javalofi.js"></script>
 </html>

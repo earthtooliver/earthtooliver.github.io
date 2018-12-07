@@ -82,3 +82,10 @@ body {
     display: none;
   }
 }
+@font-face {
+	font-family: 'Upheaval';
+	src: url(fonts/Upheaval.fon);
+}
+.labels {
+	font-family: Upheaval;
+}

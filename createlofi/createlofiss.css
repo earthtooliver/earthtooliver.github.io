@@ -9,7 +9,6 @@ body {
   background: linear-gradient(to bottom, #202020, #111119);
 }
 
-
 #audioplayerskin{
   width: 300px;
   height: auto;
@@ -29,7 +28,7 @@ body {
   outline:none;
 }
 
-.play{background: url('icons/raindrops.png') ;filter:grayscale(100%)}
+.play{background: url('icons/raindrops.png') ;filter: grayscale(100%) }
 .pause{background: url('icons/raindrops.png');}
 
 #volume_control{
@@ -84,8 +83,21 @@ body {
 }
 @font-face {
 	font-family: 'Upheaval';
-	src: url(fonts/Upheaval.fon);
+	src: url(fonts/upheavtt.ttf);
 }
 .labels {
-	font-family: Upheaval;
+	font-family: Upheaval; 
+  font-weight: lighter;
+  color: white;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 140px;
+  font-family: Upheaval; 
+  font-weight: lighter;
+  color: white;
+  background-position: center;
+  text-align: center;
+  text-shadow: 4px 2px #ff0000;
 }

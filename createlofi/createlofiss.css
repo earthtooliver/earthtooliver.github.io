@@ -18,17 +18,16 @@ body {
 }
 
 #Environmentals {
-  display:inline-flex;
+/*  display:inline-flex;
   flex-direction:column;
   justify-content: space-between;
-  align-content: center;
+  align-content: center;*/
 }
 
 .BackingTracks {
   align-self: right;
   display:inline-flex;
   flex-direction:column;
-  align-content: center;
   align: right;
 }
 

@@ -12,29 +12,86 @@
 
 <body>
     <div id="title" class="title">
-        Create Lo-Fi Hip Hop
+        Lo-Fi Mood Builder
     </div>
-    <div id="content">
-    <div id="audioplayerskin">
-          <button id="pButton" class="play" onclick="playAudio();">
-          </button>
-          <p class="labels"> Rain Sound </p>
-                <div id="volume_control">
-                         <input type="range" oninput="setVolume(this.value)" onchange="setVolume(this.value)" id="rngVolume" min="0" max="1" step="0.01" value="0">
-                    </div>
-                </div>
-    <audio id="audioplayer" loop="loop">
-        <source src="audio/rain.m4a" type="audio/m4a"/> 
-        <source src="audio/rain.m4a" type="audio/ogg"/>
-        <source src="audio/rain.m4a" type="audio/mpeg"/>
-    </audio>
-    <div class="fullscreen-bg">
-    <video loop muted autoplay poster="" class="fullscreen-bg__video">
-        <source src="vid/TrainStation.webm" type="video/webm">
-        <source src="vid/TrainStation.mp4" type="video/mp4">
-        <source src="vid/TrainStation.ogv" type="video/ogg">
-    </video>
+        <div class="credits"> created by earthtooliver  •
+            for education purposes only
+        </div>
 
+<div class="content">
+
+<div id="Environmentals">
+        
+       <p class="biglabels"> Environmentals </p>
+        <div>
+        <input type="image" class="Record" onclick="ToggleRecord();" src="icons/record.png"> </input>
+        <p class="labels"> Record Cracks </p>
+            <div id="volume_control">
+                 <input id="recordvolume" type="range" oninput="setRecordVolume(this.value)" onchange="setRecordVolume(this.value)"  min="0" max="1" step="0.01" value="1">
+            </div>
+
+    </div>
+
+    <audio preload="auto" id="RecordButton" loop="loop">
+        <source src="audio/Record.wav" type="audio/wav"/>
+        <source src="audio/Record.mp3" type="audio/mp3">
+    </audio>
+<div>
+
+    <input type="image" src="icons/raindrops.png" class="RainButton" onclick="ToggleRain();"> 
+    </input>
+          <p class="labels"> Rain Sound </p>
+                   <div id="volume_control">
+                         <input id="rainvolume" type="range" oninput="setRainVolume(this.value)" onchange="setRainVolume(this.value)" " min="0" max="1" step="0.01" value="1">
+                    </div>
+    </div>
+    <audio preload="auto" id="RainButton" loop="loop">
+        <source src="audio/rain.m4a" type="audio/m4a"/> 
+        <source src="audio/rain.m4a" type="audio/ogg">
+    </audio>
+
+    <div class="LowPassFilter">
+    <p class="biglabels"> Low-Pass Filter </p>
+   <div class="low-pass-filter-sliders">
+        <input type="range" min="10" max="22050" step="1" value="400" id="low-pass-filter-frequency">
+        <p class="labels"> Frequency </p>
+        <input type="range" min="0.0001" max="20" step="0.0001" value="10" id="low-pass-filter-peak">
+        <p class="labels"> Peak </p>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="Quotes">
+    <p class="biglabels"> Quotes </p>
+</div>
+<br>
+
+<div class="BackingTracks">
+    <p class="biglabels"> Backing Tracks </p>
+</div>
+
+
+</div>
+</div class="content">
+
+<div style="position:relative; bottom: 0; right: 0; width: 100px; ; class="bgchanger">
+    <p class="biglabels">Backgrounds</p>
+    <p class="labels">
+<button></button>
+<button></button>
+<button></button>
+<button></button>
+<button></button>
+    </p>
+<div></div>    
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="" class="fullscreen-bg__video">
+        <source src="vid/Travel.webm" type="video/webm">
+        <source src="vid/Travel.mp4" type="video/mp4">
+        <source src="vid/Travel.ogv" type="video/ogg">
+    </video>
 </div>
 	
 <div id="loader-wrapper">
@@ -45,6 +102,22 @@
 
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js">
+    var lowPassFilter = new Pizzicato.Effects.LowPassFilter({
+    source: 'script',
+    options: {
+        audioFunction: function(ToggleRain) {
+
+        }
+    }
+   
+    frequency: 400,
+    peak: 10
+});
+
+sound.addEffect(lowPassFilter);
+sound.play();
+</script>
 <script type="text/javascript" src="js/loader.js"></script>
 <script type="text/javascript" src="js/javalofi.js"></script>
 

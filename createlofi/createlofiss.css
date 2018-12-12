@@ -13,8 +13,8 @@ body {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
+  align-content: center;
+  align: center;
 }
 
 #Environmentals {
@@ -76,6 +76,10 @@ body {
   overflow: hidden;
   z-index: -100;
   filter: blur(1px);
+  opacity: 0.3;
+}
+
+.vidone, .vidtwo {
   opacity: 0.3;
 }
 

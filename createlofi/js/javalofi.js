@@ -73,3 +73,7 @@ snd2.appendChild(src2);
 
 snd1.play(); snd2.play();
 
+$('.o-play-btn').on('click', function () {
+  $(this).toggleClass('o-play-btn--playing');
+});
+
